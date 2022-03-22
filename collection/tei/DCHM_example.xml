@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>DCHM Template</title>
-            <author corresp="#WD">Wout Dillen</author>
+            <title>My Site</title>
+            <author corresp="#WD">Jackie Williams</author>
             <principal>Wout Dillen</principal>
          </titleStmt>
          <publicationStmt>
@@ -22,12 +22,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-               <p>A post-it with a simple example phrase on it</p>
+               <p>A picture of a sloth, just because</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
+            <handNote xml:id="JW" medium="blue-ink">Original text in blue ink, written by Jackie.</handNote>
          </handNotes>
       </profileDesc>
    </teiHeader>
@@ -38,8 +38,8 @@
             <figDesc>
                A photograph of a post-it with a simple example phrase.
             </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="munich01_full" url="assets/img/documents/munich01.png"/>
+            <graphic xml:id="munich01_thumb" url="assets/img/documents/munich01_thumb.png"/>
          </figure>
       </surface>
    </facsimile>
