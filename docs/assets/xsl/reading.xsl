@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: Reading Text
+                    Munich: A View of the Old Town
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -45,13 +45,13 @@
                                 <article id="thumbnail">
                                     <img>
                                         <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_thumb']/@url"/>
+                                            <xsl:value-of select="//tei:surface[@xml:id='munich01']//tei:graphic[@xml:id='munich01_thumb']/@url"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='munich01']//tei:label"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
+                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='munich01']//tei:figDesc"/>
                                         </xsl:attribute>
                                     </img>
                                 </article>
@@ -77,7 +77,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                         2022 Jackie Williams.
                       </div>
                     </div>
                 </div>

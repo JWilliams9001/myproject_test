@@ -32,11 +32,11 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="postit01">
+      <surface xml:id="munich01">
          <figure>
-            <label>Post-It 01</label>
+            <label>Munich 01</label>
             <figDesc>
-               A photograph of a post-it with a simple example phrase.
+               A view of Munich's Old Town.
             </figDesc>
             <graphic xml:id="munich01_full" url="assets/img/documents/munich01.png"/>
             <graphic xml:id="munich01_thumb" url="assets/img/documents/munich01_thumb.png"/>
@@ -45,7 +45,7 @@
    </facsimile>
    <text>
       <body>
-            <pb facs="#postit01"/>
+            <pb facs="#munich01"/>
             <head>
                <hi rend="u">DCHM Template</hi>
             </head>
